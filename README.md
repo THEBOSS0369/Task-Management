@@ -1,6 +1,6 @@
 ## Task Management System
 
-## Working Images with the URLs
+## Working Images with endpoints
 
 ### localhost/
 <img width="1827" height="251" alt="main" src="https://github.com/user-attachments/assets/bead17f5-9c63-46c1-b14d-f3587b333007" />
