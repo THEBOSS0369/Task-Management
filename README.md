@@ -1,5 +1,27 @@
 ## Task Management System
 
+## Project Description
+
+The **Task Management API** is a comprehensive, production ready REST API service designed to efficiently manage tasks in a to do application. Built with modern web technologies and best practices, this API provides a complete backend solution for task management systems with enterprise level features.
+<br />
+
+This API serves as a robust foundation for any task management application, whether it's a simple personal to do list or a complex project management system. The service is designed with scalability, security and developer experience in mind, making it suitable for both learning purposes and production deployments.
+
+### **Design**
+
+The project follows **clean architecture principles** and **RESTful design patterns**, ensuring maintainable, testable and scalable code. Every component is thoughtfully organized with proper separation of concerns, making it easy to understand, extend and maintain.
+
+### **Features**
+
+- **Complete CRUD Operations**: Create, read, update and delete tasks with full data validation
+- **Advanced Querying**: Pagination, filtering by status, and text search capabilities
+- **Real time Stats**: Task distribution and completion rates
+- **Developer Friendly**: Comprehensive API documentation with interactive testing interface
+- **Production Ready**: Includes logging, error handling, security measures and monitoring
+- **Type Safe**: Full TypeScript implementation with strict type checking
+- **Extensible Architecture**: Clean, modular code structure that's easy to extend
+
+
 ## Working Images with endpoints
 
 ### localhost/
