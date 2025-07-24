@@ -1,4 +1,4 @@
-## 🚀 Deployment Guide
+## Task Management System
 
 ### 1. Local Development
 ```bash
@@ -16,42 +16,14 @@ npm run dev
 # Documentation at http://localhost:3000/api-docs
 ```
 
-### 2. Production Deployment
-
-#### Using Docker
-```bash
-# Build and run with Docker
-docker build -t task-management-api .
-docker run -p 3000:3000 task-management-api
-
-# Or use Docker Compose
-docker-compose up -d
-```
-
-#### Using PM2 (Process Manager)
-```bash
-# Install PM2 globally
-npm install -g pm2
-
-# Build the project
-npm run build
-
-# Start with PM2
-pm2 start dist/app.js --name task-api
-
-# Enable auto-restart on system reboot
-pm2 startup
-pm2 save
-```
-
-### 3. Environment Variables for Production
+### 2. Environment Variables for Production
 ```env
 NODE_ENV=production
 PORT=3000
 CORS_ORIGINS=https://yourdomain.com,https://www.yourdomain.com
 ```
 
-## 📊 API Usage Examples
+## API Usage Examples
 
 ### Using cURL
 ```bash
@@ -104,7 +76,7 @@ const getTasks = async () => {
 };
 ```
 
-## 🧪 Testing
+##  Testing
 
 ### Run Tests
 ```bash
@@ -124,7 +96,7 @@ npm run test:watch
 - Validation tests for input/output
 - Error handling tests
 
-## 🔍 Monitoring & Logging
+## Monitoring & Logging
 
 The API includes comprehensive logging and monitoring:
 
@@ -134,7 +106,7 @@ The API includes comprehensive logging and monitoring:
 - **Health checks** for uptime monitoring
 - **API metrics** collection
 
-## 📈 Performance Features
+## Performance Features
 
 - **Compression** middleware for response compression
 - **CORS** properly configured for security
@@ -143,7 +115,7 @@ The API includes comprehensive logging and monitoring:
 - **Efficient in-memory storage** with O(1) operations where possible
 - **Pagination** to handle large datasets
 
-## 🛡️ Security Features
+##  Security Features
 
 - **Input validation** with Joi schemas
 - **UUID validation** for route parameters
@@ -152,4 +124,4 @@ The API includes comprehensive logging and monitoring:
 - **CORS configuration** for cross-origin security
 - **Rate limiting ready** (can be easily added)
 
-This Task Management API is production-ready with all the requested features and many additional enhancements for scalability, security, and maintainability! 🎯
+This Task Management API is production ready with all the requested features and many additional enhancements for scalability, security and maintainability!
